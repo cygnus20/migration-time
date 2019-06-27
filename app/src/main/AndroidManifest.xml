@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.positron.migrationtimes">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.NoActionBar">
+        <activity
+                android:name=".JobContentActivity"
+                android:label=""
+                android:theme="@style/AppTheme.NoActionBar.NoActionBar">
+        </activity>
+        <activity
+                android:name=".StudiesActivity"
+                android:label="@string/title_activity_studies"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".WorksActivity"
+                android:label="@string/title_activity_works"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".PostContentActivity"
+                android:label="@string/title_activity_post_content"
+                android:theme="@style/AppTheme.NoActionBar.NoActionBar">
+        </activity>
+        <activity
+                android:name=".VisasActivity"
+                android:label="@string/title_activity_visas"
+                android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+                android:name=".ImmigrationsActivity"
+                android:label="@string/title_activity_immigrations"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".ScholarshipsActivity"
+                android:label="@string/title_activity_scholarships"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".BaseActivity"
+                android:launchMode="singleInstance"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/title_activity_main"
+                android:launchMode="singleTask"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                        android:scheme="https"
+                        android:host="@string/url"
+                        android:pathPattern="/..*"/>
+                <data android:pathPattern="/*" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="positron.migrationtimes" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".JobsActivity"
+                android:label="@string/title_activity_jobs"
+                android:parentActivityName=".MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

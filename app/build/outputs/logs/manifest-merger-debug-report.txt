@@ -1,0 +1,538 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+MERGED from [com.android.support:design:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/95ba1eb0dcbf3150dd5c359c8b5e2337/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/de385d79f45f8cab3ddc030dc8bc873f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d300d555904ab38624338bc1847b9b14/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/46cdd75ec2a2b286a54e70788a95192a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/dd5642251ed45611d6d37d40a30b3dd2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d62561eaa0e516eef687112234e2a79f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/328c473ec0d2ccac298c70d86b8d6d07/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/fe934236c264bb0bb1eeea6ac8f3e7c6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4b5aa8dec4e541dc573f52a12ede7bc5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/71da2313412e35cc9abbca7e0f3a4ec2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4eeb13caaae5ffb970acb712bc861314/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4ab2409e93439083a435e6bebdc724e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/44b0e549b9ed56d7fcc6a5a2f460d40b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5968c6d10388fdcb928f8397f6f98484/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a5596c885a170315d134630db156adf9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/43c19847bebe92839ffae92340975fdf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/aa15c2a1e03b2e42cb23a7ad2dd098b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/88bbdbb1e556c91c827c470914c50623/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/f5885923104f932ba05dcb903ead1fb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0e3093eb7d85035b9b160fb7b9378ba2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/07066ec7d71928412846b3775284d8ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/517fb3470405a5de2cab830e80663598/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/faaff8dd4a40f347d079bcc940f965be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b88adf4a2f61e783844afc87c33d12d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ac6c062ecbbe11229f81e4c19fb4e9ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c138ba08adfa583265401d7883e34212/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/392724273b7eb8b5043a47e72c374da7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/dc1b28d8e66fb1c60c0e6a2f953076fd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a9ef0136ef37a79c00e345b6de5c783e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/fca12430df860592fe9556b6558aeecf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/54efc59d1c591f3a3f9c6ce41cb052ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/dae17ec4a6232fab75a0f2f2a16fdad0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/7986674f13c3220ac6089efc83ccdb3f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3253954291b2bf9c278f61c80c1195e8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2358f3eedb7f538aaca5bbe6255c7d10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eee3f35b4d07b09bd7a5a5eb806a753f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f625084670e124e05b800c3da9de3720/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8e4f35d4a131ff583dd05a0929ba531a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/84fd3975db229929603d5c6ab05c834b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/69ce8b79c120018bf05c44485b8313cd/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+	package
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:3:11-48
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:1-91:12
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:7:5-89:19
+MERGED from [com.android.support:design:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/95ba1eb0dcbf3150dd5c359c8b5e2337/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/95ba1eb0dcbf3150dd5c359c8b5e2337/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d300d555904ab38624338bc1847b9b14/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d300d555904ab38624338bc1847b9b14/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/46cdd75ec2a2b286a54e70788a95192a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/46cdd75ec2a2b286a54e70788a95192a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/dd5642251ed45611d6d37d40a30b3dd2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/dd5642251ed45611d6d37d40a30b3dd2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d62561eaa0e516eef687112234e2a79f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d62561eaa0e516eef687112234e2a79f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/328c473ec0d2ccac298c70d86b8d6d07/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/328c473ec0d2ccac298c70d86b8d6d07/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/fe934236c264bb0bb1eeea6ac8f3e7c6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/fe934236c264bb0bb1eeea6ac8f3e7c6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4b5aa8dec4e541dc573f52a12ede7bc5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4b5aa8dec4e541dc573f52a12ede7bc5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/dc1b28d8e66fb1c60c0e6a2f953076fd/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/dc1b28d8e66fb1c60c0e6a2f953076fd/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a9ef0136ef37a79c00e345b6de5c783e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a9ef0136ef37a79c00e345b6de5c783e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/69ce8b79c120018bf05c44485b8313cd/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/69ce8b79c120018bf05c44485b8313cd/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/dc1b28d8e66fb1c60c0e6a2f953076fd/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:12:13-39
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:10:13-45
+	android:roundIcon
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:11:13-58
+	android:icon
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:9:13-47
+	android:allowBackup
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:8:13-39
+	android:theme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:13:13-56
+activity#com.positron.migrationtimes.JobContentActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:14:9-18:20
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:16:17-33
+	android:theme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:15:17-51
+activity#com.positron.migrationtimes.StudiesActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:19:9-23:20
+	android:parentActivityName
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:22:17-59
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:21:17-63
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:20:17-48
+activity#com.positron.migrationtimes.WorksActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:24:9-28:20
+	android:parentActivityName
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:27:17-59
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:26:17-61
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:25:17-46
+activity#com.positron.migrationtimes.PostContentActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:29:9-33:20
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:31:17-68
+	android:theme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:32:17-72
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:30:17-52
+activity#com.positron.migrationtimes.VisasActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:34:9-39:20
+	android:parentActivityName
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:37:17-59
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:36:17-61
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:35:17-46
+activity#com.positron.migrationtimes.ImmigrationsActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:40:9-44:20
+	android:parentActivityName
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:43:17-59
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:42:17-68
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:41:17-53
+activity#com.positron.migrationtimes.ScholarshipsActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:45:9-49:20
+	android:parentActivityName
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:48:17-59
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:47:17-68
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:46:17-53
+activity#com.positron.migrationtimes.BaseActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:50:9-54:20
+	android:launchMode
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:52:17-52
+	android:theme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:53:17-60
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:51:17-45
+activity#com.positron.migrationtimes.MainActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:55:9-82:20
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:57:17-60
+	android:launchMode
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:58:17-48
+	android:theme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:59:17-60
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:56:17-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:60:13-63:29
+action#android.intent.action.MAIN
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:61:17-68
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:62:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/url+data:pathPattern:/*+data:pathPattern:/..*+data:scheme:https
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:65:13-74:29
+action#android.intent.action.VIEW
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:66:17-69
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:66:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:67:17-76
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:67:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:68:17-78
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:68:27-75
+data
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:69:17-72:53
+	android:host
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:71:25-51
+	android:scheme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:70:25-47
+	android:pathPattern
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:72:25-51
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:positron.migrationtimes
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:76:13-81:29
+activity#com.positron.migrationtimes.JobsActivity
+ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:83:9-88:20
+	android:parentActivityName
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:86:17-59
+	android:label
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:85:17-60
+	android:theme
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:87:17-60
+	android:name
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml:84:17-45
+uses-sdk
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/95ba1eb0dcbf3150dd5c359c8b5e2337/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/95ba1eb0dcbf3150dd5c359c8b5e2337/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/de385d79f45f8cab3ddc030dc8bc873f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/de385d79f45f8cab3ddc030dc8bc873f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d300d555904ab38624338bc1847b9b14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d300d555904ab38624338bc1847b9b14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/46cdd75ec2a2b286a54e70788a95192a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/46cdd75ec2a2b286a54e70788a95192a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/dd5642251ed45611d6d37d40a30b3dd2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/dd5642251ed45611d6d37d40a30b3dd2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d62561eaa0e516eef687112234e2a79f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d62561eaa0e516eef687112234e2a79f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/328c473ec0d2ccac298c70d86b8d6d07/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/328c473ec0d2ccac298c70d86b8d6d07/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/fe934236c264bb0bb1eeea6ac8f3e7c6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/fe934236c264bb0bb1eeea6ac8f3e7c6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4b5aa8dec4e541dc573f52a12ede7bc5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4b5aa8dec4e541dc573f52a12ede7bc5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/71da2313412e35cc9abbca7e0f3a4ec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/71da2313412e35cc9abbca7e0f3a4ec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4eeb13caaae5ffb970acb712bc861314/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/4eeb13caaae5ffb970acb712bc861314/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4ab2409e93439083a435e6bebdc724e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4ab2409e93439083a435e6bebdc724e1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/44b0e549b9ed56d7fcc6a5a2f460d40b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/44b0e549b9ed56d7fcc6a5a2f460d40b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5968c6d10388fdcb928f8397f6f98484/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5968c6d10388fdcb928f8397f6f98484/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a5596c885a170315d134630db156adf9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a5596c885a170315d134630db156adf9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/43c19847bebe92839ffae92340975fdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/43c19847bebe92839ffae92340975fdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/aa15c2a1e03b2e42cb23a7ad2dd098b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/aa15c2a1e03b2e42cb23a7ad2dd098b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/88bbdbb1e556c91c827c470914c50623/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/88bbdbb1e556c91c827c470914c50623/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/f5885923104f932ba05dcb903ead1fb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/f5885923104f932ba05dcb903ead1fb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0e3093eb7d85035b9b160fb7b9378ba2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0e3093eb7d85035b9b160fb7b9378ba2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/07066ec7d71928412846b3775284d8ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/07066ec7d71928412846b3775284d8ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/517fb3470405a5de2cab830e80663598/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/517fb3470405a5de2cab830e80663598/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/faaff8dd4a40f347d079bcc940f965be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/faaff8dd4a40f347d079bcc940f965be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b88adf4a2f61e783844afc87c33d12d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b88adf4a2f61e783844afc87c33d12d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ac6c062ecbbe11229f81e4c19fb4e9ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ac6c062ecbbe11229f81e4c19fb4e9ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c138ba08adfa583265401d7883e34212/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c138ba08adfa583265401d7883e34212/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/392724273b7eb8b5043a47e72c374da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/392724273b7eb8b5043a47e72c374da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/dc1b28d8e66fb1c60c0e6a2f953076fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/dc1b28d8e66fb1c60c0e6a2f953076fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a9ef0136ef37a79c00e345b6de5c783e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a9ef0136ef37a79c00e345b6de5c783e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/fca12430df860592fe9556b6558aeecf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/fca12430df860592fe9556b6558aeecf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/54efc59d1c591f3a3f9c6ce41cb052ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/54efc59d1c591f3a3f9c6ce41cb052ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/dae17ec4a6232fab75a0f2f2a16fdad0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/dae17ec4a6232fab75a0f2f2a16fdad0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/7986674f13c3220ac6089efc83ccdb3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/7986674f13c3220ac6089efc83ccdb3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3253954291b2bf9c278f61c80c1195e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3253954291b2bf9c278f61c80c1195e8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2358f3eedb7f538aaca5bbe6255c7d10/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2358f3eedb7f538aaca5bbe6255c7d10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eee3f35b4d07b09bd7a5a5eb806a753f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eee3f35b4d07b09bd7a5a5eb806a753f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f625084670e124e05b800c3da9de3720/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f625084670e124e05b800c3da9de3720/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8e4f35d4a131ff583dd05a0929ba531a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8e4f35d4a131ff583dd05a0929ba531a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/84fd3975db229929603d5c6ab05c834b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/84fd3975db229929603d5c6ab05c834b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/69ce8b79c120018bf05c44485b8313cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/69ce8b79c120018bf05c44485b8313cd/AndroidManifest.xml:20:5-44
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		ADDED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/raptor/AndroidStudioProjects/MigrationTimes/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/86b4ee9263a7bc7d06005996e4ee9fe3/AndroidManifest.xml:32:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/a6dda2959d8ca1ecf7370b4b2afd4b87/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/9da374a243db8c7f568d3c2a23d735ce/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/c53236bb7afd309ff1a60ef8ccb743b9/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/4cd155ff64e055c49b9c84db48b53fa0/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/raptor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/8301663168961296526cda1b3afd8a87/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/6b40ab94ab397098ae1b8f584d627603/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/raptor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/f5281418e7cf68196f096e5efa6cf71e/AndroidManifest.xml:24:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/raptor/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/8e3e0d188f3d54feb80076cfc7b7344e/AndroidManifest.xml:9:13-64

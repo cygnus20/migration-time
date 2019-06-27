@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108721945607",
+    "firebase_url": "https://migration-time.firebaseio.com",
+    "project_id": "migration-time",
+    "storage_bucket": "migration-time.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108721945607:android:6ae34ddb20da5ec2",
+        "android_client_info": {
+          "package_name": "com.positron.migrationtimes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108721945607-a8kih1hs7j13n34im4uofka39fhi10p6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.positron.migrationtimes",
+            "certificate_hash": "fdd2dfd93eafd5b2504de1343d32b84d9721ff32"
+          }
+        },
+        {
+          "client_id": "108721945607-65e8t8es0h7uvq47j3rcbcnj4raalndq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuupEOSjZpBoJRFSGLogrfpu47yUbD-2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108721945607-65e8t8es0h7uvq47j3rcbcnj4raalndq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

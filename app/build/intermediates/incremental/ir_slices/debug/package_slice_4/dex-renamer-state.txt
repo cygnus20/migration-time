@@ -1,0 +1,4 @@
+#Wed Jun 26 12:29:27 WAT 2019
+base.0=/home/raptor/AndroidStudioProjects/MigrationTimes/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
